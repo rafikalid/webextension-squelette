@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title(i18n-text="extName") Loading
+		meta(charset="utf-8")
+		script(src="/lib/browser-polyfill.min.js")
+		script(src="/js/commons/utils.js")
+		script(src="/js/commons/message-emitter.js")
+	body
+		div(i18n={title:'test'})
+		p Loading
+		//- add scripts
+		
+		//- replace all i18n attributes
+		script(src='/js/commons/i18n-html.js')

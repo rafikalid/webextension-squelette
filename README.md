@@ -1,0 +1,2 @@
+# webextension-squelette
+webextension-squelette

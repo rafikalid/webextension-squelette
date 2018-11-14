@@ -1,0 +1,17 @@
+
+
+[Root]
+	├─[/_locals]			# this folder contains i18n messages
+	│	└─[/index.coffee]	# Contains all locals. Should be splited in multiple files
+	│	
+	├─[/manifest]			
+	│	└─ [/manifest.coffee] # Contains app manifest
+	├─[/background]
+	│	└─ [/main.pug]		# Main background page. Should include other required files
+	├─[/views]				# Should contains all extension private pages
+	│	└─ ...
+	├─[/popup]				# Should contains popup pages
+	├─[/content-script]		# Should contains content scripts
+	├─[/lib]				# Contains all libraries
+	├─[/commons]			# Contains commons files
+	└─[/images]				# Contains image files
